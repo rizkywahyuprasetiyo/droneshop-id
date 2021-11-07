@@ -135,7 +135,7 @@ section.benefit {
 
 .benefit h2 {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
   color: #fff;
   margin-bottom: 36px;
 }
@@ -162,7 +162,7 @@ section.spec {
 }
 
 .spec h2 {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 48px;
   color: #0a1329;
 }
@@ -185,7 +185,7 @@ section.spec {
 
 .spec-detail h3 {
   color: #0a1329;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 36px;
 }
 
@@ -198,7 +198,97 @@ section.spec {
 
 .spec img {
   width: 468px;
-  position: relative;
   margin-top: 65px;
   margin-bottom: -250px;
+}
+
+section.video {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 350px;
+}
+
+.video h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0a1329;
+  padding: 0 25%;
+  margin-bottom: 60px;
+}
+
+.video img {
+  width: 100%;
+  margin-bottom: 76px;
+}
+
+section.new-product {
+  padding-top: 44px;
+  padding-bottom: 65px;
+}
+
+.new-product-desc {
+  text-align: center;
+}
+
+.new-product-desc h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #0a1329;
+}
+
+.new-product-desc p {
+  margin-top: 32px;
+  font-size: 22px;
+  color: #0a132998;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid #e5e5e5;
+  width: 400px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 16px;
+  padding-bottom: 48px;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 30px;
+  color: #0a1329;
+}
+
+.card h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  background-color: #315bc7;
+  padding: 18px 45px;
+  border-radius: 28px;
+  font-size: 18px;
+}
+
+.card a:hover {
+  background-color: #3c65ce;
 }

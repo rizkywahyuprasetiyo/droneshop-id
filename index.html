@@ -8,8 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
+    />
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="owlcarousel/assets/owl.theme.default.min.css"
     />
     <link rel="stylesheet" type="text/css" href="style/main.css" />
   </head>
@@ -94,5 +99,68 @@
         <img src="img/spec-drone.png" alt="spec drone" />
       </div>
     </section>
+    <section class="video">
+      <div class="container-spec">
+        <h2>4K video shot on our Drone Light</h2>
+        <img src="img/video.png" alt="video" />
+      </div>
+    </section>
+    <section class="new-product">
+      <div class="container-spec">
+        <div class="new-product-desc">
+          <h2>New Products</h2>
+          <p>
+            New innovation, best quality than before.<br />
+            make every moment flying operation become unforgettable.
+          </p>
+        </div>
+        <div class="owl-carousel">
+          <div>
+          <div class="card">
+            <img src="img/mini_drone.png" alt="mini drone" />
+            <h4>Mini Drone</h3>
+            <h3>Rp 18.755.000</h3>
+            <p>Powerful camera drone at an affordable price range. Camera up to 4K resolution, optimize shots automatically.</p>
+            <a href="btn">Get Now</a>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <img src="img/drone_light.png" alt="light drone" />
+            <h4>Drone Light</h3>
+            <h3>Rp 23.086.000</h3>
+            <p>Drone light is every creators dream.
+              Setting apperture manually and high
+              baterry performance. Drone light is
+              everything you need.</p>
+            <a href="btn">Get Now</a>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <img src="img/phantom_drone.png" alt="light drone" />
+            <h4>Phantom Drone</h3>
+            <h3>Rp 8.640.000</h3>
+            <p>Inspired by phantom, drone
+              can move faster and quickly like a ghost.
+              Focus on speed so you can investigate
+              environtment quickly.</p>
+            <a href="btn">Get Now</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          margin: 30,
+          autoWidth: true,
+        });
+      });
+    </script>
   </body>
 </html>
