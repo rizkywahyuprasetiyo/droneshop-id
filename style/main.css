@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
 }
 
 header {
@@ -47,4 +48,59 @@ header {
 .cta #btn-primary:hover {
   color: #f5f5f5;
   background-color: #4f7ae6;
+}
+
+section.hero {
+  background-color: #f3f5fc;
+}
+
+.diskon {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #faf0fa;
+  padding: 12px 16px;
+  white-space: nowrap;
+  border-radius: 28px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f443369d;
+}
+
+.diskon img {
+  margin-right: 8px;
+}
+
+.kiri {
+  width: 40%;
+}
+
+.kiri h1 {
+  font-weight: 700;
+  font-size: 66px;
+  color: #0a1329;
+  margin-top: 16px;
+}
+
+.kiri p {
+  color: #0a132993;
+  font-size: 20px;
+  margin-top: 26px;
+  margin-bottom: 52px;
+}
+
+.kiri a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  background-color: #315bc7;
+  padding: 18px 45px;
+  border-radius: 28px;
+}
+
+.kiri a:hover {
+  background-color: #406bd6;
+}
+
+.kanan img {
+  position: relative;
 }
