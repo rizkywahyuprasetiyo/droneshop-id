@@ -53,6 +53,9 @@ header {
 section.hero {
   background-color: #f3f5fc;
   padding-bottom: 170px;
+  background-image: url("../img/drone.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .diskon {
@@ -87,6 +90,7 @@ section.hero {
   font-size: 20px;
   margin-top: 26px;
   margin-bottom: 52px;
+  line-height: 1.6;
 }
 
 .kiri a {
@@ -100,10 +104,6 @@ section.hero {
 
 .kiri a:hover {
   background-color: #406bd6;
-}
-
-.kanan img {
-  position: relative;
 }
 
 section.benefit {
