@@ -244,7 +244,7 @@ section.new-product {
   margin-bottom: 60px;
 }
 
-.card {
+.new-product .card {
   background-color: #fff;
   border: 2px solid #e5e5e5;
   width: 400px;
@@ -254,32 +254,32 @@ section.new-product {
   padding-bottom: 48px;
 }
 
-.card img {
+.new-product .card img {
   width: 100%;
   margin-bottom: 30px;
   color: #0a1329;
 }
 
-.card h4 {
+.new-product .card h4 {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.card h3 {
+.new-product .card h3 {
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
 }
 
-.card p {
+.new-product .card p {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 48px;
 }
 
-.card a {
+.new-product .card a {
   font-weight: 500;
   text-decoration: none;
   color: #fff;
@@ -289,6 +289,67 @@ section.new-product {
   font-size: 18px;
 }
 
-.card a:hover {
+.new-product .card a:hover {
   background-color: #3c65ce;
+}
+
+section.rate {
+  background-color: #f3f5fc;
+  padding-top: 115px;
+  padding-bottom: 116px;
+}
+
+.rate h2 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #0a1329;
+  width: 600px;
+  margin-bottom: 70px;
+}
+
+.rate .rate-people {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rate .card {
+  width: 32%;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #ececec;
+}
+
+.rate .card p {
+  line-height: 1.8;
+  color: #0a1329;
+}
+
+.rate .profile {
+  scroll-margin-top: 30px;
+}
+
+.rate .card .profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.rate .card .profile img {
+  width: 70px;
+  margin-right: 30px;
+}
+
+.rate .card .nama h5 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0a1329;
+}
+
+.rate .card .nama p {
+  color: #818181;
+  font-size: 18px;
+  margin-top: 10px;
 }
