@@ -52,6 +52,7 @@ header {
 
 section.hero {
   background-color: #f3f5fc;
+  padding-bottom: 170px;
 }
 
 .diskon {
@@ -103,4 +104,48 @@ section.hero {
 
 .kanan img {
   position: relative;
+}
+
+section.benefit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.content1 {
+  background-repeat: no-repeat;
+  padding-top: 132px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url("../img/ultra-light.jpg");
+  width: 100%;
+  height: 710px;
+}
+
+.content2 {
+  background-repeat: no-repeat;
+  padding-top: 132px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  height: 710px;
+  background-image: url("../img/best-resolution.jpg");
+}
+
+.benefit h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.benefit p {
+  color: rgba(255, 255, 255, 0.76);
+  line-height: 1.5;
+  font-size: 28px;
+}
+
+.benefit .tebal {
+  font-weight: 600;
 }
