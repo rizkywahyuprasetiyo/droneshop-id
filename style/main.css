@@ -149,3 +149,56 @@ section.benefit {
 .benefit .tebal {
   font-weight: 600;
 }
+
+section.spec {
+  background-color: #f3f5fc;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container-spec {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.spec h2 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #0a1329;
+}
+
+.spec .desc {
+  margin-top: 32px;
+  color: #0a132998;
+  padding: 0 192px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.spec-detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 150px;
+  margin-top: 60px;
+}
+
+.spec-detail h3 {
+  color: #0a1329;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.spec-detail p {
+  margin-top: 16px;
+  font-size: 20px;
+  padding: 0 24px;
+  color: #0a132998;
+}
+
+.spec img {
+  width: 468px;
+  position: relative;
+  margin-top: 65px;
+  margin-bottom: -250px;
+}
